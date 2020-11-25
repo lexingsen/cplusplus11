@@ -43,7 +43,7 @@ inline ThreadPool::ThreadPool(size_t size):_stop(false) {
 					task();
 				}
 			}
-		)
+		);
 	}
 }
 
